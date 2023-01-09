@@ -8,7 +8,7 @@ import { UserModule } from './modules/user.modules'
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://alexandreoliv29:704010Sa@cluster0.6gqxv.mongodb.net/?retryWrites=true&w=majority',
+      'mongodb+srv://fadavinho:fadinha@cluster0.hgmd7kd.mongodb.net/?retryWrites=true&w=majority',
     ),
     WineModule,
     UserModule,
